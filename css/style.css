@@ -3,6 +3,71 @@
  * Subtheme specific CSS.
  */
 
- header#header.header{
-    background-color: #cad4ff;
+ nav#navbar-main.navbar.navbar-expand-lg{
+    background-color: #b7b7b7;
+    display: flex;
+    justify-content: center;
 }
+
+#navbar-main > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+h1{
+    color: #efefef;
+    font-weight: bold;
+}
+
+.arctic-winter-header{
+    background-color: #6dc2ff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+.col-md-12 .welcome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #efefef;
+}
+
+#navbar-main .nav.item{
+    color: #e3f2fd;
+}
+
+.col-md-8 .front-page-article{
+    background-color: #e3f2fd;
+    margin: .5em;
+}
+
+.region-sidebar .img-thumbnail{
+    margin: .5em;
+}
+  
+.region-header {
+    background-color: #d6faff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.region-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+.region-sidebar-first,.region-sidebar-second{
+    background-color: #787878;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 1em;
+  }
+  
+.region-menu{
+    background-color: #787878;
+    margin: 1em;
+    padding: 15px;
+    border-radius: 8px;
+  }
